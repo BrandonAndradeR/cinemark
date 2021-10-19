@@ -3,6 +3,6 @@ module.exports={
         host:'localhost',
         user:'root',
         password: '',
-        database:'other'
+        database:'Cinemark'
     }
 };

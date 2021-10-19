@@ -4,7 +4,7 @@ const pool =require('../../database');
 module.exports = function(){
 
     async function listall(){
-        let query = "select * from catorce";
+        let query = "select * from estudiante";
         return await pool.query(query);
     }
 

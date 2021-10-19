@@ -12,6 +12,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
     "datatables.net": "^1.10.24",
     "datatables.net-dt": "^1.10.24",
     "express": "^4.17.1",

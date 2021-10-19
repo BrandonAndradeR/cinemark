@@ -1,9 +1,11 @@
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
+const cors = require('cors');
 
 //inicio
 const app = express();
+app.use(cors());
 
 //configuraciones
 app.set('port', process.env.PORT || 4000);
@@ -20,12 +22,15 @@ app.use((req,res,next)=>{
 });
 
 //rutas
-app.use(require('./routes'));
+app.use(require('./routes/Cinemark/Ciudad'));
 
 
 //rutanuevaComplementaria
-app.use('/formacion', require('./routes/Electiva/cuartoSemestre'));
+//app.use('/formacion', require('./routes/Electiva/cuartoSemestre'));
 
+//rutaCinemark
+app.use('/CinemarkCiudad', require('./routes/Cinemark/Ciudad'));
+app.use('/CinemarkPelicula', require('./routes/Cinemark/Pelicula'));
 
 //public
 app.use(express.static(path.join(__dirname,'public')));
