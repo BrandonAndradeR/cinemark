@@ -6,7 +6,7 @@ const baseUrl_Pelicula =process.env.REACT_APP_BASE_URL_PELICULA
 
 export async function getCiudad(){
     try{
-        const responde =await axios({
+        const response =await axios({
             url:`${baseUrl_Ciudad}/api/listarCiudad`,
             method:'GET'
         })
@@ -18,7 +18,7 @@ export async function getCiudad(){
 
 export async function getPelicula(){
     try{
-        const responde =await axios({
+        const response =await axios({
             url:`${baseUrl_Pelicula}/api/listarPelicula`,
             method:'GET'
         })

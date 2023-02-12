@@ -1,0 +1,24 @@
+.NavbarInfo{
+
+    border: 2px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-borroso-gris-claro-blanco-degradado-radial_53562-6788.jpg?size=626&ext=jpg");
+    }
+
+.NavbarLogo{
+
+    border: 2px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+      
+    background-image: url("https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?size=626&ext=jpg");
+}
+

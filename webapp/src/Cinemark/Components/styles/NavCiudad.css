@@ -1,0 +1,28 @@
+.NavCiu{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 20%;
+    
+}
+.NavCiuBack{
+
+    border: 2px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+      
+    background-image: url("https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?size=626&ext=jpg");
+}
+.NavCiuBacker{
+
+    border: 2px solid rgba(255, 255, 255, 0);
+    margin-left: 8%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+      
+    background-image: url("https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?size=626&ext=jpg");
+}

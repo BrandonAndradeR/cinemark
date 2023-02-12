@@ -1,0 +1,23 @@
+.BarraFuera{
+
+    border: 2px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 20%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    background-image: url("https://www.ef.com.co/blog/wp-content/uploads/sites/25/2018/02/viajala.png");
+    }
+
+    .Barradentro{
+
+        border: 1px solid rgba(248, 244, 0, 0.904);
+        width: 100%;
+        height: 70%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        }
